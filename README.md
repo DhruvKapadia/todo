@@ -16,14 +16,18 @@ Prerequisites
 
 Installation
 Clone this repository and navigate to the downloaded directory. Then, execute the following command to install the required Python packages:
-pip install -r requirements.txt 
+pip install -r 
 
 Running the Application
 Run the following command in the terminal:
+
 python main.py 
 
 Important Note
 This application is currently not functional due to an invalid OpenAI API key. 
 The current API key is a placeholder and does not authenticate with OpenAI's services, 
 resulting in an openai.error.AuthenticationError. To run the application, you need to replace the placeholder API key with a valid one.
+
+
+
 
