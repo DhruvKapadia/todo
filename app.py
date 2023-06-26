@@ -6,7 +6,7 @@ app = Flask(__name__)
 todos = []
 generated_steps = {}
 
-openai.api_key = "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"
+openai.api_key = "Add API key here"
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
